@@ -75,7 +75,7 @@ def loadTags(control, filename):
 
 def loadBooksTags(control, filename):
     """
-    Carga todos los booktags del archivo y los agrega a la lista de tags
+    Carga los tags de los libros del archivo
     """
     # TODO: Modificación de Est-1 y Est-2, Est-3 en el Lab 2
     pass

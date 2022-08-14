@@ -49,7 +49,8 @@ def printMenu():
     print("Opciones:")
     print("1- Cargar Libros")
     print("2- Cargar Tags")
-    # TODO: Modificaciones de Est-1, Est-2 y Est-3 en Lab 2
+    # TODO: Modificaciones de Est-1 en el Lab 2, agregar opcion 3
+
     print("0- Salir")
 
 
@@ -83,12 +84,12 @@ def firstBook(control):
     """
     Devuelve el primer libro del catalogo
     """
-    # TODO: Modificaciones de Est-2 en el Lab 2
+    # TODO: Modificaciones de Est-1 en el Lab 2
     pass
 
 
 def lastBook(control):
-    # TODO: Modificaciones de Est-3 en el Lab 2
+    # TODO: Modificaciones de Est-2 en el Lab 2
     """
     Devuelve el último libro cargado
     """
@@ -110,8 +111,10 @@ while True:
         print("Total de libros cargados: " + str(books))
 
         # TODO: Modificaciones de Est-1 en el Lab 2
+        first = None
 
         # TODO: Modificaciones de Est-2 en el Lab 2
+        last = None
 
     elif int(inputs[0]) == 2:
         print("Cargando información de tags....")
@@ -119,7 +122,7 @@ while True:
         print("Total de tags cargados: " + str(tags))
 
     elif int(inputs[0]) == 3:
-        # TODO: Modificaciones de Est-2 en el Lab 2
+        # TODO: Modificaciones de Est-3 en el Lab 2
         pass
 
     else:
