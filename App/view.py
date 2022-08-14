@@ -106,7 +106,7 @@ while True:
     printMenu()
     inputs = input("Seleccione una opción para continuar\n")
     if int(inputs[0]) == 1:
-        print("Cargando información de libros....")
+        print("Cargando información de libros...")
         books = loadBooks(control)
         print("Total de libros cargados: " + str(books))
 
@@ -115,7 +115,7 @@ while True:
         # TODO: Modificaciones de Est-2 en el Lab 2
 
     elif int(inputs[0]) == 2:
-        print("Cargando información de tags....")
+        print("Cargando información de tags...")
         tags = loadTags(control)
         print("Total de tags cargados: " + str(tags))
 
