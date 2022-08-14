@@ -72,8 +72,7 @@ def addBooks(catalog, booksfile):
 
 def addBookTags(catalog, booktagsfile):
     """
-    Para guardar los booktags provenientes del archivo CSV
-    vamos a crear una lista, en donde quedarán todos los datos.
+    Esta funcion guardar los booktags provenientes del archivo CSV.
     """
     # TODO: Modificaciones de Est-1 y Est-2, Est-3 en el Lab 2
     pass
@@ -99,13 +98,16 @@ def createTagList(catalog):
 
 
 def createBookTagList(catalog):
+    """
+    Esta funcion crea una lista vacia para booktags.
+    """
     # TODO: Modificaciones de Est-1 y Est-2, Est-3 en el Lab 2
     pass
 
 
 def addBookTag(catalog, booktag):
     """
-    Esta funcion crea una lista basado en el archivo de booktags.
+    Esta funcion agrega un elemento a lista de booktags.
     """
     # TODO: Modificaciones de Est-1 y Est-2, Est-3 en el Lab 2
     pass
@@ -114,25 +116,25 @@ def addBookTag(catalog, booktag):
 # Funciones de consulta
 
 def bookSize(catalog):
-    # TODO Modificaciones de Est-1 en el Lab 2
+    # TODO Modificaciones de Est-3 en el Lab 2
     pass
 
 
 def tagSize(catalog):
-    # TODO Modificaciones de Est-1 en el Lab 2
+    # TODO Modificaciones de Est-3 en el Lab 2
     pass
 
 
 def bookTagSize(catalog):
-    # TODO Modificaciones de Est-1 en el Lab 2
+    # TODO Modificaciones de Est-3 en el Lab 2
     pass
 
 
 def firstBook(catalog):
-    # TODO Modificaciones de Est-2 en el Lab 2
+    # TODO Modificaciones de Est-3 en el Lab 2
     pass
 
 
 def lastBook(catalog):
-    # TODO Modificaciones de Est-2 en el Lab 2
+    # TODO Modificaciones de Est-3 en el Lab 2
     pass
