@@ -50,7 +50,6 @@ def printMenu():
     print("1- Cargar Libros")
     print("2- Cargar Tags")
     # TODO: Modificaciones de Est-1, Est-2 y Est-3 en Lab 2
-    print("3- Cargar Tags de Libros")
     print("0- Salir")
 
 
