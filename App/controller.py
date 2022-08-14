@@ -73,6 +73,25 @@ def loadTags(control, filename):
     return model.tagSize(catalog)
 
 
-def loadBooksTags(catalog):
-    # TODO: Modificación de Est-1 y Est-2 en el Lab 2
+def loadBooksTags(control, filename):
+    """
+    Cargo los tags de los libros del archivo
+    """
+    # TODO: Modificaciones de Est-1 y Est-2, Est-3 en el Lab 2
+    pass
+
+
+def firstBook(control):
+    """
+    Devuelve el primer libro del catalogo
+    """
+    # TODO: Modificaciones Est-3 en el Lab 2
+    pass
+
+
+def lastBook(control):
+    """
+    Devuelve el ultimo libro del catalogo
+    """
+    # TODO: Modificaciones Est-3 en el Lab 2
     pass
