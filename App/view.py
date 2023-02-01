@@ -49,7 +49,7 @@ def printMenu():
     print("Opciones:")
     print("1- Cargar Libros")
     print("2- Cargar Tags")
-    # TODO: Modificaciones de Est-1 en el Lab 2, agregar opcion 3
+    # TODO: Mods de Est-1 en el Lab 2, agregar opcion 3
 
     print("0- Salir")
 
@@ -76,7 +76,7 @@ def loadBooksTags(control):
     """
     Cargar los Tags de libros
     """
-    # TODO: Modificaciones de Est-1 en el Lab 2
+    # TODO: Mods de Est-1 en el Lab 2
     pass
 
 
@@ -84,12 +84,12 @@ def firstBook(control):
     """
     Devuelve el primer libro del catalogo
     """
-    # TODO: Modificaciones de Est-1 en el Lab 2
+    # TODO: Mods de Est-1 en el Lab 2
     pass
 
 
 def lastBook(control):
-    # TODO: Modificaciones de Est-2 en el Lab 2
+    # TODO: Mods de Est-2 en el Lab 2
     """
     Devuelve el último libro cargado
     """
@@ -99,32 +99,41 @@ def lastBook(control):
 # Se crea el controlador asociado a la vista
 control = newController()
 
-"""
-Menu principal
-"""
-while True:
-    printMenu()
-    inputs = input("Seleccione una opción para continuar\n")
-    if int(inputs[0]) == 1:
-        print("Cargando información de libros....")
-        books = loadBooks(control)
-        print("Total de libros cargados: " + str(books))
+# main del ejercicio
+if __name__ == "__main__":
 
-        # TODO: Modificaciones de Est-1 en el Lab 2
-        first = None
+    """
+    Menu principal
+    """
+    working = True
+    # ciclo del menu
+    while working:
+        printMenu()
+        inputs = input("Seleccione una opción para continuar\n")
+        if int(inputs[0]) == 1:
+            print("Cargando información de libros....")
+            books = loadBooks(control)
+            print("Total de libros cargados: " + str(books) + "\n")
 
-        # TODO: Modificaciones de Est-2 en el Lab 2
-        last = None
+            # TODO: Mods de Est-1 en el Lab 2
+            first = None
 
-    elif int(inputs[0]) == 2:
-        print("Cargando información de tags....")
-        tags = loadTags(control)
-        print("Total de tags cargados: " + str(tags))
+            # TODO: Mods de Est-2 en el Lab 2
+            last = None
 
-    elif int(inputs[0]) == 3:
-        # TODO: Modificaciones de Est-3 en el Lab 2
-        pass
+        elif int(inputs[0]) == 2:
+            print("Cargando información de tags....")
+            tags = loadTags(control)
+            print("Total de tags cargados: " + str(tags) + "\n")
 
-    else:
-        sys.exit(0)
-sys.exit(0)
+        elif int(inputs[0]) == 3:
+            # TODO: Mods de Est-3 en el Lab 2
+            pass
+
+        elif int(inputs[0]) == 0:
+            working = False
+            print("\nGracias por utilizar el programa.")
+
+        else:
+            print("Opcion erronea, vuelva a elegir.\n")
+    sys.exit(0)

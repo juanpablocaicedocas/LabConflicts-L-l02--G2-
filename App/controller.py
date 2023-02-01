@@ -77,7 +77,7 @@ def loadBooksTags(control, filename):
     """
     Carga los tags de los libros del archivo
     """
-    # TODO: Modificación de Est-1 y Est-2, Est-3 en el Lab 2
+    # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
     pass
 
 
@@ -85,7 +85,7 @@ def firstBook(control):
     """
     Devuelve el primer libro del catalogo
     """
-    # TODO: Modificación Est-3 en el Lab 2
+    # TODO: Mods Est-3 en el Lab 2
     pass
 
 
@@ -93,5 +93,5 @@ def lastBook(control):
     """
     Devuelve el ultimo libro del catalogo
     """
-    # TODO: Modificación Est-3 en el Lab 2
+    # TODO: Mods Est-3 en el Lab 2
     pass
